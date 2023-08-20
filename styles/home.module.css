@@ -1,0 +1,107 @@
+.home{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+.part_1{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #8d161a;
+    align-items: center;
+    /* background-image: url("../public//images/nathan-mullet-pmiW630yDPE-unsplash.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center; */
+}
+.part_1 h1{
+    color: white;
+    margin: 10px 0px;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    font-size: 45px;
+}
+.part_1 h3{
+    color: white;
+    font-size: 35px;
+}
+.buttons{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #8d161a67;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px;
+    background-color: white;
+}
+.btn:hover{
+    animation: change 1s ease-in-out forwards;
+    color: white;
+    cursor: pointer;
+}
+@keyframes change{
+    0%{
+        background-color: white;
+        color: #8d161a;
+    }
+    100%{
+        background-color:#972f33;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .part_1 h1{
+        font-size: 35px;
+    }
+    .part_1 h3{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .part_1 h1{
+        font-size: 25px;
+    }
+    .part_1 h3{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .part_1 h1{
+        font-size: 20px;
+    }
+    .part_1 h3{
+        font-size: 15px;
+        width: 90%;
+        text-align: center;
+    }
+    .btn{
+        width: 130px;
+    }
+    .buttons{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 300px) {
+
+    .btn{
+        width: 100px;
+        font-size: 15px;
+    }
+    
+}

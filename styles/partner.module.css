@@ -1,0 +1,121 @@
+   .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    min-height: 80vh;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .pageTitle {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #8d161a;
+    width: 300px;
+    text-align: center;
+    border-bottom: 1px solid #8d161a;
+  }
+  
+  .partnerContainer {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  .partnerTitle {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #8d161a;
+  }
+  .select{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .loader{
+    width: auto;
+    height: 60px;
+    margin-left: 12px;
+  }
+  .partnerDescription {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    color: #333;
+  }
+  
+  .partnerList {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #333;
+  }
+  
+  .partnerButtonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .partnerButton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #8d161a;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .partnerButton:hover {
+    background-color: #a71d22;
+  }
+  
+.prayerForm {
+  margin: 50px 0px;
+ }
+ 
+ .formGroup {
+   margin-bottom: 15px;
+ }
+ 
+ .lbl{
+   display: block;
+   margin-bottom: 5px;
+ }
+ 
+.inp {
+   width: 100%;
+   padding: 8px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+ }
+ 
+ .submitButton {
+   background-color: #8d161a;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 16px;
+ }
+
+ 
+@media screen and (max-width: 380px) {
+  .container{
+    padding: 5px;
+  }
+  .pageTitle{
+    font-size: 20px;
+  }
+}
+ 

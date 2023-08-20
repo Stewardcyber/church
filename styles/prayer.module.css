@@ -1,0 +1,97 @@
+.prayerContainer {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px ;
+  margin-top: 10px;
+}
+
+.sectionTitles {
+  font-size: 30px;
+  color: #8d161a;
+  width: 350px;
+  text-align: center;
+  margin: 30px auto;
+  border-bottom: 1px solid #8d161a;
+}
+
+.description {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.loader{
+  width: auto;
+  height: 60px;
+  margin-left: 12px;
+}
+.select{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.quoteContainer {
+  margin-top: 40px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.quote {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.quoteReference {
+  font-size: 14px;
+  text-align: right;
+}
+
+
+.prayerForm {
+   margin: 50px 0px;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .lbl{
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+ .inp {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .submitButton {
+    background-color: #8d161a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+ 
+  
+  @media screen and (max-width: 380px) {
+    .prayerContainer{
+      padding: 5px;
+    }
+    .sectionTitles{
+      font-size: 20px;
+      width: 240px;
+    }
+  }
+   

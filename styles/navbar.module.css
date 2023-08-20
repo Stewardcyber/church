@@ -1,0 +1,88 @@
+ .navbar {
+    background-color: white;
+    color: black;
+    position: sticky;
+    top: 0;
+    z-index: 20000;
+    border-bottom: 1px solid #dbdde2;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .navbarContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .navbarBrand {
+    width: 10%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo_im{
+    width: 50px ;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .navbarLink{
+    color: black;
+    border: 1px solid #8d161a65;
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+.menuIcon{
+  display: none;
+  position: absolute;
+  top: 15px;
+  font-size: 25px;
+  right: 15px;
+}
+  
+  .navbarLinks{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(1,1fr);
+    justify-content: space-around;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .navbarLink{
+      font-size: 15px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .menuIcon{
+    display: block;
+    }
+    .navbarContent{
+      flex-direction: column;
+align-items: flex-start;
+    }
+    .navbarLinks{
+      display: none;
+    }
+    .navbarBrand{
+      margin-left: 20px ;
+    }
+    .respLinks{
+      width: 100%;
+      display: grid;
+      grid-template-rows: repeat(7,1fr);
+      grid-template-columns: repeat(1,1fr);
+    }
+    .navbarLink{
+      font-size: 20px;
+      border: 1px solid #8d161a2e;
+    }
+  }

@@ -1,0 +1,158 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  padding-top: 25px;
+}
+
+.pageTitle {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #8d161a;
+  border-bottom: 1px solid #8d161a;
+}
+
+.churchImageContainer {
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.historyContainer {
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.sectionTitle {
+  margin: 0px auto;
+  font-size: 25px;
+  width: 200px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #8d161a;
+  text-align: center;
+  color: #8d161a;
+}
+.sectionTitles {
+  margin: 0px auto;
+  font-size: 25px;
+  width: 390px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #8d161a;
+  text-align: center;
+  color: #8d161a;
+}
+.sectionTitleE {
+  margin: 0px auto;
+  font-size: 25px;
+  width: 320px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #8d161a;
+  color: #8d161a;
+}
+
+.historyText {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.visionContainer,
+.missionContainer,
+.beliefContainer,
+.contactContainer,
+.leadershipContainer {
+  width: 95vw;
+  margin-bottom: 40px;
+}
+
+
+.missionText
+ {
+  font-size: 20px;
+  color: #333;
+}
+.missionTexts
+ {
+  font-size: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.beliefList {
+  list-style-type: disc;
+  color: #333;
+}
+
+
+.leadershipGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+
+.leadershipMember {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.church_img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.mem_img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.leadershipMemberTitle {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #333;
+  border-bottom: 1px solid #8d161a;
+}
+@media screen and (max-width: 1050px) {
+.mem_img{
+  width: 200px;
+  height: 200px;
+}
+}
+@media screen and (max-width: 850px) {
+.mem_img{
+  width: 150px;
+  height: 150px;
+}
+}
+@media screen and (max-width: 750px) {
+.leadershipGrid{
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.leadershipMember{
+  margin: 20px 10px;
+}
+}
+@media screen and (max-width: 500px) {
+.sectionTitle{
+  font-size: 17px;
+  width: 150px;
+
+}
+.sectionTitles{
+  font-size: 17px;
+  width: 270px;
+
+}
+.sectionTitleE{
+  font-size: 17px;
+  width: 250px;
+}
+}

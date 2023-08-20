@@ -1,0 +1,117 @@
+.contactContainer {
+  width: 85%;
+  margin: auto;
+  padding: 10px;
+  min-height: 80vh;
+}
+
+.sectionTitle {
+  font-size: 30px;
+  color: #8d161a;
+  font-weight: bold;
+  border-bottom: 1px solid #8d161a;
+  text-align: center;
+  width: 200px;
+  margin: 10px auto;
+}
+
+.desc {
+  font-size: 25px;
+  font-weight: 40;
+  margin: 50px 0px;
+}
+
+.sectionContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.leftSection,
+.rightSection {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 50px 0px;
+}
+
+.hed {
+  font-size: 20px;
+  width: 130px;
+  color: #8d161a;
+  border-bottom: 1px solid #8d161a;
+  margin: 10px 0px;
+}
+
+.hedr {
+  font-size: 20px;
+  width: 170px;
+  margin: 10px 0px;
+  color: #8d161a;
+  border-bottom: 1px solid #8d161a;
+  margin: 10px 0px;
+}
+
+.cont {
+  margin-bottom: 5px;
+  margin: 4px 0px;
+}
+
+/* Updated styles for region nodes */
+
+.regionsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.regionNode {
+  margin-bottom: 10px;
+}
+
+.regionHeader {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.regionName {
+  font-size: 20px;
+  margin: 5px 0px;
+}
+
+.toggleIcon {
+  margin-left: 5px;
+  color: #8d161a;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.addressList {
+  margin-left: 30px;
+  padding: 10px;
+}
+
+.addressItem {
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 650px) {
+.sectionContainer{
+  flex-direction: column;
+  justify-content: center;
+}
+.leftSection .rightSection{
+  width: 100%;
+}
+}
+@media screen and (max-width: 350px) {
+.leftSection p{ 
+  font-size: 15px;
+}
+.rightSection p{ 
+  font-size: 15px;
+}
+.regionName{
+  font-size: 15px;
+}
+}
