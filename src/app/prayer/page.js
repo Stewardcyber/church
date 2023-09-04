@@ -54,7 +54,7 @@ const Page = () => {
     <div className={styles.prayerContainer}>
       <h2 className={styles.sectionTitles}>SUBMIT YOUR PRAYER</h2>
       <p className={styles.description}>
-      The Bible declares in Psalm 37:5 “Commit your way to the Lord, Trust also in Him, and He will 
+     Bible declares in Psalm 37:5 “Commit your way to the Lord, Trust also in Him, and He will 
 answer your prayer.
       </p>
       <p className={styles.description}>
