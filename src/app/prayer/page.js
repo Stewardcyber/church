@@ -27,7 +27,7 @@ const Page = () => {
     setloading(true)
     const res = await axios.post("/api", {
   name: `${firstName} ${lastName}`,
-  email: "prayer@pottertemplechurch.or.tz", // Updated email address
+  email: "prayer@potterstemplechurch.or.tz", // Updated email address
   message: `Prayer Topic: ${message}`,
   typeofprayer: "Prayer Request"
 });
