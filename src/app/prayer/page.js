@@ -25,9 +25,12 @@ const Page = () => {
       })
     }
     setloading(true)
-    const res=await axios.post("/api",{
-      "name":`${firstName} ${lastName}`,email,message:`Prayer Topic :${message}`,"typeofprayer":"Prayer Request"
-    })
+    const res = await axios.post("/api", {
+  name: `${firstName} ${lastName}`,
+  email: "prayer@pottertemplechurch.or.tz", // Updated email address
+  message: `Prayer Topic: ${message}`,
+  typeofprayer: "Prayer Request"
+});
   
     if(res.data.success){
       setloading(false)
